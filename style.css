@@ -8,6 +8,53 @@ body{
     font-family: 'Poppins',sans-serif;
 }
 
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-height: 100px;
+    padding: 5%;
+}
+
+.search-bar{
+    width:100%;
+    max-width: 700px;
+     background: white; 
+    display: flex;
+    align-items: center;
+    border-radius: 60px  ;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180px);
+} 
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder{
+    color: black;
+}
+
+.search-bar button .fa{
+    width: 25px;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    background: #58629b;
+    cursor: pointer; 
+} 
+
 .navbar{
     display: flex;
     align-items: center;
@@ -20,13 +67,25 @@ nav{
 }
 
 nav ul{
-    display: inline-block;
+    display: inline-block; 
     list-style-type: none;
 }
 
 nav ul li{
     display: inline-block;
-    margin-right: 20px;
+} 
+
+ul:hover{
+    background: blueviolet;
+}
+
+.button{
+    transform: translateY(-5px);
+    padding: 20px;
+    border-radius: 30px;
+    background: blue;
+    color: white;
+    transform: translateY(-5px);
 }
 
 a{
@@ -66,7 +125,7 @@ p{
 }
 
 .btn{
-    display: inline-block;
+     display: inline-block;
     background: blue;
     color:white;
     padding: 8px 30px;
@@ -105,12 +164,15 @@ p{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    background: radial-gradient(#fff,cyan);
+    border-radius: 20px;
+    margin-top: 40px;
 }
 
 .col-3 img{
     width: 80%;
     height: 200px;
-
+    border-radius: 20px;
 }
 
 .feed{
@@ -121,9 +183,17 @@ p{
     color: black;
 }
 
+.free{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+}
+
 .feed::after{
     content: '';
-    background: aqua;
+    background: black;
     width: 80px;
     height: 5px;
     border-radius: 5px;
