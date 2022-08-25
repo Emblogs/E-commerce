@@ -183,6 +183,14 @@ p{
     color: black;
 }
 
+.free{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+}
+
 .feed::after{
     content: '';
     background: black;
