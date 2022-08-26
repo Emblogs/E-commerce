@@ -75,9 +75,9 @@ nav ul li{
     display: inline-block;
 } 
 
-ul:hover{
-    background: blueviolet;
-}
+/* ul:hover{ */
+    /* background: blueviolet; */
+/* } */
 
 .button{
     transform: translateY(-5px);
@@ -152,7 +152,6 @@ p{
 }
 
 .col-3{
-    /* flex-basis: 30%; */
     width: 300px;
     margin-bottom: 30px;
     padding: 10px;
@@ -176,14 +175,6 @@ p{
 }
 
 .feed{
-    text-align: center;
-    margin: 0 auto 80px;
-    position: relative;
-    line-height: 60px;
-    color: black;
-}
-
-.free{
     text-align: center;
     margin: 0 auto 80px;
     position: relative;
@@ -219,4 +210,57 @@ h4{
 
 .col-3:hover{
     transform: translateY(-5px);
+}
+
+#get{
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    margin-top: 50px;
+}
+
+.footer p{
+    color:#8a8a8a;
+}
+
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-col-1,.footer-col-2,.footer-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
 }
