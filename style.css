@@ -73,11 +73,16 @@ nav ul{
 
 nav ul li{
     display: inline-block;
+    margin-left: 16px;
+    background: transparent;
+    padding: 10px;
+    border-radius: none;
 } 
 
-/* ul:hover{ */
-    /* background: blueviolet; */
-/* } */
+nav ul li:hover{ 
+    background: blueviolet;
+    border-radius: 30px;
+} 
 
 .button{
     transform: translateY(-5px);
@@ -166,6 +171,7 @@ p{
     background: radial-gradient(#fff,cyan);
     border-radius: 20px;
     margin-top: 40px;
+    padding-bottom: 20px;
 }
 
 .col-3 img{
@@ -261,6 +267,15 @@ h4{
     text-align: center;
 }
 
+.footer-col-3 ul li{
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
 ul{
     list-style-type: none;
+}
+
+a{
+    cursor: pointer;
 }
